@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table Example</title>
+
+  <!--  Basic CSS for table styling --> 
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 70%;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid #07c533;
+      padding: 8px 12px;
+      text-align:center;
+    }
+    th {
+      background-color: #f3f7f7;
+    }
+    caption {
+      caption-side: top;
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  </style>
+    <!--  Basic CSS for table styling  -->   
+
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">
+       নিচে HTML এ ব্যবহৃত Table Tag গুলোর কাজ ও ব্যবহার দেয়া হলো:
+    </h1>
+
+
+    <hr>
+    <!-- Table Tags → table, caption, thead, tbody, tfoot, tr, th, td -->
+
+    <h2>Table Tags (কাজ + ব্যবহার)</h2>
+
+    <ol>
+        <li>table → টেবিল শুরু/শেষ করার জন্য।</li>
+        <li>tr → টেবিলের একটি Row (সারি) তৈরি করতে ব্যবহার হয়।
+        </li>
+        <li>td → Row এর Data Cell (সাধারণ টেক্সট বা সংখ্যা) লিখতে।</li>
+        <li>th → Table Header Cell (সিরির শিরোনাম) লিখতে।</li>
+        <li>thead → টেবিলের Header অংশ আলাদা করতে।</li>
+        <li>tbody → টেবিলের Main Body অংশ আলাদা করতে।</li>
+        <li>tfoot → টেবিলের Footer অংশ আলাদা করতে।</li>
+        <li>caption → টেবিলের Caption/Title লিখতে।</li>
+        <li>colgroup / col → Column এর formatting বা style নির্ধারণের জন্য।</li>
+
+    </ol>
+    <br>
+    <hr> 
+        
+
+    <!-- নিচে একটি টেবিলের উদাহরণ দেয়া হলো: -->
+
+    <p>
+        নিচে একটি টেবিলের উদাহরণ দেয়া হলো:
+    </p>
+
+    <!--thead, tbody, tfoot → টেবিলের বিভিন্ন অংশ আলাদা করতে ব্যবহৃত হয়। ঐচ্ছিক-->
+
+    <!-- caption → টেবিলের Caption/Title লিখতে ব্যবহৃত হয়। ঐচ্ছিক-->
+
+  <table>
+
+    <caption>Student Marks Table</caption>
+
+    <thead>
+
+      <tr>
+        <th>Student</th>
+        <th>Math</th>
+        <th>Science</th>
+        <th>English</th>
+      </tr>
+
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>Rahim</td>
+        <td>85</td>
+        <td>90</td>
+        <td>88</td>
+      </tr>
+
+      <tr>
+        <td>Karim</td>
+        <td>78</td>
+        <td>82</td>
+        <td>80</td>
+      </tr>
+
+      <tr>
+        <td>Salma</td>
+        <td>92</td>
+        <td>95</td>
+        <td>89</td>
+      </tr>
+
+    </tbody>
+
+    <tfoot>
+
+      <tr>
+        <td>Total Students</td>
+        <td colspan="3">3</td>
+      </tr>
+
+    </tfoot>
+
+  </table>
+
+    <hr>
+
+    
+    <!-- =======================
+        table example 
+    ======================== -->
+ 
+
+    <table border="1" cellpadding="10" cellspacing="5">
+      <caption>
+        HTML Table Tags (কাজ & ব্যবহার)
+      </caption>
+        <tr>
+          <th>
+            Table Tag
+          </th>
+          <th>
+            কাজ & ব্যবহার
+          </th>
+        </tr>
+
+        <tr>
+          <td>
+            table
+          </td>
+          <td>
+            টেবিল শুরু/শেষ করার জন্য।
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            tr
+          </td>
+          <td>
+            টেবিলের একটি Row (সারি) তৈরি করতে ব্যবহার হয়।
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            td
+          </td>
+          <td>
+            Row এর Data Cell (সাধারণ টেক্সট বা সংখ্যা) লিখতে।
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            th
+          </td>
+          <td>
+            Table Header Cell (সিরির শিরোনাম) লিখতে।
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            thead
+          </td>
+          <td>
+            টেবিলের Header অংশ আলাদা করতে।
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            tbody
+          </td>
+          <td>
+            টেবিলের Main Body অংশ আলাদা করতে।
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            tfoot
+          </td>
+          <td>
+            টেবিলের Footer অংশ আলাদা করতে।
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            caption
+          </td>
+          <td>
+            টেবিলের Caption/Title লিখতে।
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            colgroup / col
+          </td>
+          <td>
+            Column এর formatting বা style নির্ধারণের জন্য।
+          </td>
+        </tr>
+        
+    </table>
+
+
+</body>
+</html>
